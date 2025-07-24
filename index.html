@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
@@ -32,16 +36,25 @@
       </header>
 
 <!--Banner Part-->   
-    <section class="">
-        <div class="flex justify-center mr-34 ml-34 w-[1100px] h-[461px] mt-34">
-            <div>
-                <h2 class="text-4xl">ALWAYS <span>FRESH FLOWERS</span></h2>
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-            </div>
-            <div> <img src="./assets/hero-flower.png" alt="Flowers"></div>
-        </div>
-    </section> 
-      
+<section class="py-10">
+    <div class="flex justify-between items-center max-w-[1200px] mx-auto px-6 h-[461px] max-[676px]:flex-col-reverse">
+      <div class="w-[570px]">
+        <h2 class="text-6xl font-serif font-bold text-black leading-tight">
+        ALWAYS <span class="text-orange-600">FRESH<br> FLOWERS</span>
+        </h2>
+        <p class="mt-6 text-xl text-gray-600 leading-relaxed font-sans">
+          Indulge your senses with the beauty and fragrance of<br>
+          our fresh flower shop. From classic roses to exotic<br>
+          blooms, we offer a wide variety of fresh flowers that<br>
+          are perfect for any occasion.
+        </p>
+      </div>
+      <div>
+        <img src="./assets/hero-flower.png" alt="Flowers" class="w-[570px] h-[355px] object-cover max-[676px]:w-[100%] h-auto" />
+      </div>
+    </div>
+  </section>
+  
     
 </body>
 </html>
