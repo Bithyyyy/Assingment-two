@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+<!--Tailwind CSS-->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Flower-Market</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-[#f8f9ff]">
+    <!--Navbar Part-->
+    <header class="py-4 px-6 flex justify-between items-center ml-34 mr-34 max-[676px]:ml-3 max-[676px]:mr-3">
+        <figure>
+          <img src="./assets/logo.png" alt="Faugei Logo" class="h-[82px] w-[135px] max-[676px]:h-[38px] max-[676px]:w-[63px] ">
+        </figure>
+        <nav class="mt-0 ">
+          <ul class="flex items-center gap-7 list-none ml-9 text-gray-700 font-medium max-[676px]:block">
+            <li><a href="#" class="hover:text-black font-extrabold max-[676px]:hidden">Home</a></li>
+            <li><a href="#" class="hover:text-black font-light text-gray-500 max-[676px]:hidden">Shop</a></li>
+            <li><a href="#" class="hover:text-black font-light text-gray-500 max-[676px]:hidden">About Us</a></li>
+            <li>
+              <span><a href="#" class="flex items-center gap-1 hover:text-black"><i class="fa-solid fa-cart-shopping"></i>
+                Cart($56)
+              </a></span>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+<!--Banner Part-->   
+    <section class="">
+        <div class="flex justify-center mr-34 ml-34 w-[1100px] h-[461px] mt-34">
+            <div>
+                <h2 class="text-4xl">ALWAYS <span>FRESH FLOWERS</span></h2>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div> <img src="./assets/hero-flower.png" alt="Flowers"></div>
+        </div>
+    </section> 
+      
     
 </body>
 </html>
